@@ -1,1 +1,1 @@
-# layout-11-columns
+# layout-columns-11

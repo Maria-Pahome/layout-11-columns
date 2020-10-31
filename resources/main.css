@@ -1,0 +1,199 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.columns-body, .sponsors, .page-container, .column-a, 
+.column-b, .column-c, .LLDN-wp {
+    display: flex;
+}
+
+.page-container {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+
+.columns-body {
+    justify-content: space-between;
+    width: 1000px;
+    height: 200%;
+}
+
+.columns {
+    width: 32%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.column-a, .column-b, .column-c {
+    background-image: url(../assets/bg.jpg);
+    flex-basis: 32%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-content: column;
+}
+
+.column-a {
+   height: 500px;
+   position: relative;
+}
+
+.column-b {
+    height: 450px;
+    background-position: center;
+}
+
+.column-c {
+    height: 400px; 
+    background-position: right;
+}
+
+.sponsors {
+    justify-content: space-between;
+}
+
+.bottom-info, .column-b h2, .column-b h3, p, 
+table, .judges-wp, .schedule-wp, .info-inscriptions-wp, 
+.sponsors, .LLDN-wp {
+    position: absolute;
+}
+
+.bottom-info {  
+    top: 120%;
+}
+
+.bottom-title h1 {
+    font-size: 40px;
+}
+
+.LLDN-wp {
+    color: black;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    top: -3%;
+    font-size: 10px;
+    flex-direction: column;
+}
+
+.logo-img {
+    width: 100%;
+    height: auto;
+}
+
+.bottom-info h4:nth-child(2), .bottom-info h4:nth-child(3), h2, 
+.judges-wp h1, thead th, .schedule-wp h1, .info-inscriptions-wp h3 {
+    color: #e7a06c;
+} 
+
+.bottom-title {
+    top: 100%;
+    width: 200px;
+}
+
+.bottom-info h4, .bottom-title h1, 
+.contest-rows h1, .contest-rows h2, .contest-rows h3, 
+.judges-wp h1, .schedule-wp h1, .info-inscriptions-wp h3,
+.LLDN-wp div img{
+    margin: 0;
+    padding: 0;
+}
+
+.column-b h2 {
+    top: 100%;
+}
+
+.column-b h3 {
+    top: 115%;
+}
+
+.column-b h3:nth-child(2) {
+    top: 110%;
+}
+
+p {
+    top: 125%;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.text-column-b {
+    top: 165%;
+}
+
+.contest-rows {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.contest-rows h1, .contest-rows h2, .contest-rows h3 {
+    height: 25px;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 100%;
+    text-align: right;
+}
+
+table {
+    top: 100%;
+    margin-bottom: 10px;
+}
+
+thead th {
+    font-size: 25px;
+    text-align: left;
+}
+
+.judges-wp {
+    top: 135%;
+    margin-bottom: 15px;
+}
+
+.judges-wp div, tbody tr:nth-child(4), 
+tbody tr td, .schedule-wp div, 
+.info-inscriptions-wp div, .LLDN-wp div {
+    font-weight: bold;
+}
+
+.judges-wp div span,tbody tr td:nth-child(2), tbody tr:nth-child(4), .schedule-wp span, 
+.info-inscriptions-wp div:nth-child(2){
+    color: #747273;
+}
+
+.schedule-wp {
+    top: 90%;
+}
+
+.schedule-row {
+    padding-top: 25px;
+}
+
+.info-inscriptions-wp {
+   top: 115%;
+}
+
+.sponsors {
+    height: 150px;
+    top: 130%;
+    width: 68%;
+}
+
+.sponsors div {
+    width: 100px;
+    height: 90px;
+    margin-top: 30px;
+}
+
+.logo-imgs {
+    width: 100%;
+    height: 90%;
+}
+
