@@ -100,6 +100,7 @@ table, .judges-wp, .schedule-wp, .info-inscriptions-wp,
 } 
 
 .bottom-title {
+    /* nu ai nevoie de toate pozitionarile astea, este foarte manuala implementarea in felul acesta, la cea mai mica modificare ai nevoie sa revezi tot. plus ca de sus in jos este flow-ul normal al layout-ului, este ok sa folosesti asta, chiar nu merita sa te complici cu pozitionarea */
     top: 500px;
     width: 200px;
 }
@@ -187,6 +188,7 @@ tbody tr td, .schedule-wp div,
 
 .sponsors {
     height: 150px;
+    /* aici nu aveai foarte mare nevoie nevoie de pozitionare, dar daca totusi preferi sa o faci iti recomand sa te reperezi la bottom si nu la top. la cea mai mica modificare in structura ta de mai sus, trebuie sa repari si restul si e mai ok sa eviti asta */
     top: 1000px;
     width: 68%;
 }
